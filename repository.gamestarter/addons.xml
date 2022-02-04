@@ -12,7 +12,7 @@
     </extension>
 </addon><addon id="game.retroarch" name="RetroArch" provider-name="Bite Your Idols!" version="8.177.14">
   <requires>
-    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="xbmc.python" version="2.1.0" target="3.0.0" />
   </requires>
   <extension library="addon.py" point="xbmc.python.pluginsource">
 		<provides>executable game</provides>
@@ -30,9 +30,10 @@ RetroArch has advanced features like shaders, netplay, rewinding, and more!</des
       <screenshot>fanart.jpg</screenshot>
     </assets>
   </extension>
-</addon><addon id="game.emulationstation" name="EmulationStation" provider-name="Bite Your Idols!" version="8.201.1">
+</addon><addon id="game.emulationstation" name="EmulationStation" provider-name="Bite Your Idols!" 
+	       ="8.201.1">
   <requires>
-    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="xbmc.python" version="2.1.0" target="3.0.0"/>
     <import addon="game.retroarch" version="8.167.1" />
   </requires>
   <extension library="addon.py" point="xbmc.python.pluginsource">
@@ -51,7 +52,7 @@ RetroArch has advanced features like shaders, netplay, rewinding, and more!</des
   </extension>
 </addon><addon id="game.drastic" name="DraStic RPi" provider-name="Bite Your Idols!" version="0.0.1">
   <requires>
-    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="xbmc.python" version="2.1.0" target="3.0.0"/>
   </requires>
   <extension library="addon.py" point="xbmc.python.pluginsource">
 		<provides>executable game</provides>
@@ -70,7 +71,7 @@ RetroArch has advanced features like shaders, netplay, rewinding, and more!</des
 </addon><addon id="plugin.program.advanced.emulator.launcher" name="Advanced Emulator Launcher" provider-name="Wintermute0110" version="0.9.7">
   <requires>
     
-    <import addon="xbmc.python" version="2.25.0" />
+    <import addon="xbmc.python" version="2.25.0" target="3.0.0"/>
   </requires>
   <extension library="addon.py" point="xbmc.python.pluginsource">
     <provides>executable</provides>
@@ -95,7 +96,7 @@ RetroArch has advanced features like shaders, netplay, rewinding, and more!</des
   </extension>
 </addon><addon id="game.ppsspp" name="PPSSPP RPi" provider-name="Bite Your Idols!" version="0.0.1">
   <requires>
-    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="xbmc.python" version="2.1.0" target="3.0.0"/>
   </requires>
   <extension library="addon.py" point="xbmc.python.pluginsource">
 		<provides>executable game</provides>
@@ -113,7 +114,7 @@ RetroArch has advanced features like shaders, netplay, rewinding, and more!</des
   </extension>
 </addon><addon id="game.retroarch" name="RetroArch" provider-name="Bite Your Idols!" version="9.185.19">
   <requires>
-    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="xbmc.python" version="2.1.0" target="3.0.0"/>
   </requires>
   <extension library="addon.py" point="xbmc.python.pluginsource">
 		<provides>executable game</provides>
@@ -133,7 +134,7 @@ RetroArch has advanced features like shaders, netplay, rewinding, and more!</des
   </extension>
 </addon><addon id="game.retroarch" name="RetroArch" provider-name="Bite Your Idols!" version="9.186.20">
   <requires>
-    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="xbmc.python" version="2.1.0" target="3.0.0"/>
   </requires>
   <extension library="addon.py" point="xbmc.python.pluginsource">
 		<provides>game</provides>
